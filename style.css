@@ -99,7 +99,25 @@ main section .btn:hover{
 footer{
     background-color: rgb(197, 145, 105);
     font-size: smaller;
-    margin-bottom: none;
+    position: absolute;
+    margin: 0%;
 }
     
     /*conteneur*/
+.social-media{
+    text-align: center;
+    font-size:larger;
+    
+}
+
+.social-media li{
+   list-style-type: none; 
+}
+
+.bi{
+    font-size: larger;
+}
+
+.copyright{
+    text-align: center;
+}
