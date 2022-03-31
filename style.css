@@ -1,0 +1,55 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fdedda;
+    color:black;
+}
+
+
+/* header */
+
+    /* Logo */
+#Logo img{
+    width: 50%;
+    height: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+    /* header title */
+h1{
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/* navbar */
+
+    /* responsive button */
+.navbar-toggler{
+    display: block; 
+    margin-right:auto;
+    margin-left: auto;
+}
+    /* a text-align center */
+.navbar-nav{
+    font-size: larger;
+    text-align: center;
+}
+    /* a hover color */
+#navbarNavAltMarkup a:hover {
+    color: lightgreen;
+}
+
+
+/* header - end picture dog */
+#dog-head img{
+    width: 100%;
+}
