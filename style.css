@@ -94,3 +94,12 @@ main section .btn:hover{
     border-color: black;
     color: black;
 }
+
+/* footer */
+footer{
+    background-color: rgb(197, 145, 105);
+    font-size: smaller;
+    margin-bottom: none;
+}
+    
+    /*conteneur*/
