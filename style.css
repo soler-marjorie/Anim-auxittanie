@@ -1,6 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #fdedda;
+    background-color: #fff4e5;
     color:black;
 }
 
@@ -97,7 +97,8 @@ main section .btn:hover{
 
 /* footer */
 footer{
-    background-color: rgb(197, 145, 105);
+    color: white;
+    background-color: rgba(23, 23, 22, 0.90);
     font-size: smaller;
     position: absolute;
     margin: 0%;
@@ -107,15 +108,24 @@ footer{
 .social-media{
     text-align: center;
     font-size:larger;
-    
 }
 
-.social-media li{
-   list-style-type: none; 
+.social-media a{
+    font-size:xx-large;
 }
 
-.bi{
-    font-size: larger;
+#facebook{
+    color: rgb(75, 75, 195);
+    margin-right: 10%;
+}
+
+#instagram{
+    color: rgb(239, 107, 248);
+    margin-left: 10%;
+}
+
+#mail{
+    color:rgb(170, 38, 38);
 }
 
 .copyright{
