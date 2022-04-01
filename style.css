@@ -1,6 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #fdedda;
+    background-color: #fff4e5;
     color:black;
 }
 
@@ -93,4 +93,41 @@ main section .btn:hover{
     background-color: rgb(177, 233, 124);
     border-color: black;
     color: black;
+}
+
+/* footer */
+footer{
+    color: white;
+    background-color: rgba(23, 23, 22, 0.90);
+    font-size: smaller;
+    position: absolute;
+    margin: 0%;
+}
+    
+    /*conteneur*/
+.social-media{
+    text-align: center;
+    font-size:larger;
+}
+
+.social-media a{
+    font-size:xx-large;
+}
+
+#facebook{
+    color: rgb(75, 75, 195);
+    margin-right: 10%;
+}
+
+#instagram{
+    color: rgb(239, 107, 248);
+    margin-left: 10%;
+}
+
+#mail{
+    color:rgb(170, 38, 38);
+}
+
+.copyright{
+    text-align: center;
 }
