@@ -69,6 +69,9 @@ footer{
 /* end main body background */
 
 
+
+
+
 /* header */
 
     /* Logo */
@@ -98,14 +101,16 @@ footer{
 }
 
 
-/* header - end picture dog */
+    /* header - end picture dog */
 #dog-head img{
     width: 100%;
 }
+/* end of header */
+
 
 /* start main Home */
 
-/* Main body */
+    /* Main body */
 #maindog1 img{
     width: 12em;
     display: block;
@@ -137,13 +142,16 @@ main section .btn:hover{
 }
 /* end main Home */
 
+
 /* Start main events */
+    /* picture */
 #médiation img, #dog-read img, #PECCRAM img, #sensibilisation img{
     width: 50%;
     height: 20%;
     margin-bottom: 10%;
 }
 
+    /* board */
 .table{
     font-size: small;
     margin-bottom: 15%;
@@ -152,8 +160,25 @@ main section .btn:hover{
 td, th{
     border: 2px solid rgb(53, 110, 92);
 }
-
 /*end main events */
+
+/* start pets */
+#Pets img{
+    width: 70%;
+    margin-bottom: 10%;
+    border: 1.5px solid rgb(229, 196, 128);
+}
+
+#Luna img, #mayaZigzag img, #ricoréRosette img{
+    margin-right: 20%;
+}
+
+#narniaHawai img, #miniCanelle img{
+    margin-left: 20%;
+}
+/* end pets */
+
+
 
 /* footer start */
     /*conteneur*/
