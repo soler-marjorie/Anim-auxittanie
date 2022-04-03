@@ -1,12 +1,9 @@
-/* first element important */
+/* start body elements */
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: #fef9e4;
     color:black;
-}
-
-h1, h2, h3, h4, h5{
-    text-align: center;  
+    text-align: center;
 }
 
 h3, h4, h5{
@@ -28,7 +25,6 @@ h3{
 }
 
 p{
-    text-align: center;
     font-style: italic;
 }
 
@@ -43,21 +39,34 @@ footer{
     position: absolute;
     margin: 0%;
 }
+/* end body elements */
 
-/* main body background */
+
+/* start main body background */
+.header, .green-flower, .pink-flower, .footer{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header{
+    background-image: url(Images/arrière-plan-header.png);  
+}
+
 .green-flower{
     background-image: url(Images/flower.png);
-    background-repeat: no-repeat;
-    background-size:contain;
     background-position: 95%;
 }
 
 .pink-flower{
     background-image: url(Images/flowerpink.png);
-    background-repeat: no-repeat;
-    background-size: contain;
     background-position: 5%;
 }
+
+.footer{
+    background-image: url(Images/arrière-plan-footer.png);
+    background-position: bottom 50% right 3em;
+}
+/* end main body background */
 
 
 /* header */
@@ -82,7 +91,6 @@ footer{
     /* a text-align center */
 .navbar-nav{
     font-size: larger;
-    text-align: center;
 }
     /* a hover color */
 #navbarNavAltMarkup a:hover {
@@ -132,7 +140,6 @@ main section .btn:hover{
 /* footer start */
     /*conteneur*/
 .social-media{
-    text-align: center;
     font-size:larger;
 }
 
