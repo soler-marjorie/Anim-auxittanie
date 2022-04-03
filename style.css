@@ -103,7 +103,7 @@ footer{
     width: 100%;
 }
 
-/* start main */
+/* start main Home */
 
 /* Main body */
 #maindog1 img{
@@ -135,7 +135,25 @@ main section .btn:hover{
     border-color: black;
     color: black;
 }
-/* main end */
+/* end main Home */
+
+/* Start main events */
+#médiation img, #dog-read img, #PECCRAM img, #sensibilisation img{
+    width: 50%;
+    height: 20%;
+    margin-bottom: 10%;
+}
+
+.table{
+    font-size: small;
+    margin-bottom: 15%;
+}
+
+td, th{
+    border: 2px solid rgb(53, 110, 92);
+}
+
+/*end main events */
 
 /* footer start */
     /*conteneur*/
