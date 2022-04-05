@@ -1,4 +1,4 @@
-/* start body elements */
+/* start of body elements */
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: #fef9e4;
@@ -22,6 +22,7 @@ h2{
 
 h3{
     font-weight: bold;
+    margin-bottom: 3%;
 }
 
 p{
@@ -36,13 +37,14 @@ footer{
     color: white;
     background-color: rgba(23, 23, 22, 0.90);
     font-size: smaller;
+    width: 100%;
     position: absolute;
-    margin: 0%;
+    margin-bottom: 0%;
 }
-/* end body elements */
+/* end of body elements */
 
 
-/* start main body background */
+/* start of main body background */
 .header, .green-flower, .pink-flower, .footer{
     background-size: contain;
     background-repeat: no-repeat;
@@ -64,15 +66,13 @@ footer{
 
 .footer{
     background-image: url(Images/arrière-plan-footer.png);
-    background-position: bottom 50% right 3em;
+    background-position: bottom 50% right 8vw;
 }
-/* end main body background */
+/* end of main body background */
 
 
 
-
-
-/* header */
+/* start of header */
 
     /* Logo */
 #Logo img{
@@ -83,8 +83,7 @@ footer{
     margin-right: auto;
 }
 
-/* navbar */
-
+    /* navbar */
     /* responsive button */
 .navbar-toggler{
     display: block; 
@@ -108,11 +107,15 @@ footer{
 /* end of header */
 
 
-/* start main Home */
+/* start of main Home */
 
     /* Main body */
+ul{
+    text-align: left;
+}
+    
 #maindog1 img{
-    width: 12em;
+    width: 40vw;
     display: block;
     margin-left: auto;
     margin-right: auto; 
@@ -140,10 +143,10 @@ main section .btn:hover{
     border-color: black;
     color: black;
 }
-/* end main Home */
+/* end of main Home */
 
 
-/* Start main events */
+/* Start of main events */
     /* picture */
 #médiation img, #dog-read img, #PECCRAM img, #sensibilisation img{
     width: 50%;
@@ -160,9 +163,9 @@ main section .btn:hover{
 td, th{
     border: 2px solid rgb(53, 110, 92);
 }
-/*end main events */
+/*end of main events */
 
-/* start pets */
+/* start of pets */
 #Pets img{
     width: 70%;
     margin-bottom: 10%;
@@ -176,11 +179,11 @@ td, th{
 #narniaHawai img, #miniCanelle img{
     margin-left: 20%;
 }
-/* end pets */
+/* end of pets */
 
 
 
-/* footer start */
+/* start of footer */
     /*conteneur*/
 .social-media{
     font-size:larger;
@@ -203,5 +206,225 @@ td, th{
 #mail{
     color:rgb(170, 38, 38);
 }
-/* footer end */
+/* end of footer */
 
+
+
+/* start of tablet responsive */
+@media screen and (min-width:600px){
+/* start of body elements */
+    .header{
+        background-size: 90%;
+        background-position-x: right;
+    }
+
+    .footer{
+        background-position: bottom 50% right 20vw;
+    }
+/* end of body elements */
+
+/* start of main home */
+    ul{
+        list-style-type: none; 
+        text-align: center;   
+        line-height: 2em;
+    }
+/* end of main home */
+
+/* start of main events */
+    .table{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+/* end of main events */
+
+/* start of main pets */
+    .mainPpets p{
+        font-size: larger;
+        font-weight: bolder;
+        font-style: oblique;
+        margin: 3%;
+    }
+
+    #Pets img{
+        width: 45%;
+        border: 2px solid rgb(229, 196, 128);
+    }
+
+    #Luna img, #mayaZigzag img, #ricoréRosette img{
+        margin-right: 30%;
+    }
+    
+    #narniaHawai img, #miniCanelle img{
+        margin-left: 30%;
+    }
+/* end of main pets */
+
+/* start of footer */
+    .social-media a{
+        font-size: 7vw;
+    }
+
+    #facebook{
+        margin-right: 8%;
+    }
+
+    #instagram{
+        margin-left: 8%;
+    }
+/* end of footer */
+ 
+}
+/* end of tablet responsive */
+
+
+/* start of pc responsive */
+@media screen and (min-width:700px){
+
+/* start of body elements */
+    h1, h2{
+        margin-left : 20%;
+    }
+
+    h1{
+        font-size: 5rem;
+        margin-top: -15%;
+    }
+
+    h2{
+        font-size: 3rem;
+        line-height: 3em;
+    } 
+
+    h5{
+        margin-bottom: 5%;
+    }
+
+    p, footer{
+        font-size: larger;
+    }
+
+    article{
+        margin-block: 3%;
+    }
+
+    .header{
+        background-size: 50%;
+    }
+
+    .footer{
+        background-position: bottom 50% right 55vw;
+    }
+/*end of body elements */
+
+
+/* start of header */
+    /* Logo */
+    #Logo img{
+        width: 30%;
+        height: 20%;
+        display: block;
+        margin-left: 5%;
+        margin-right: 75%;
+    }
+
+    .navbar-nav a.nav-link{
+        margin-right: 5rem;
+    }
+
+    a.nav-link.active{
+        margin-right:20em;
+    
+    }
+/* end of header */
+
+/* start of main home */
+    #maindog1 img{
+        width: 30vw;
+    }
+
+    /* card */
+    .flex-left{
+        float: left;
+        margin-left: 25%;
+    }
+
+    .flex-right{
+        float:inline-start;
+        margin-right: 25%;
+    }
+/* end of main home */
+
+/* start of main events */
+    .table{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10%;
+    }
+
+    #dog-read img, #sensibilisation img{
+        width: 35vw;
+        height: 25vw;
+        padding: 2%;
+    }
+
+    #médiation img{
+        width: 30vw;
+        height: 20vw;
+        padding: 2%;
+    }
+
+    #PECCRAM img{
+        width: 27vw;
+        height: 30vw;
+        padding: 2%;
+    }
+
+    div.articleFlex{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        margin-right: 15%;
+        margin-left: 5%;
+    }
+/* end of main events */
+
+/* start of main pets */
+    .mainPpets p{
+        font-size: xx-large;
+        font-style: oblique;
+    }
+
+    #Pets img{
+        width: 35%;
+        margin-bottom: 5%;
+        border: 2px solid rgb(229, 196, 128);
+    }
+
+    #Luna img, #mayaZigzag img, #ricoréRosette img{
+        margin-right: 30%;
+    }
+    
+    #narniaHawai img, #miniCanelle img{
+        margin-left: 30%;
+    }
+/* end of main pets */
+
+/* start of footer */
+    .social-media a{
+        font-size: 3.5vw;
+    }
+
+    #facebook{
+        margin-right: 5%;
+    }
+
+    #instagram{
+        margin-left: 5%;
+    }
+/* end of footer */
+
+}
+/* end of pc responsive */
