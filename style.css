@@ -1,13 +1,9 @@
-/* start of body elements */
+/* start of general body */
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: #fef9e4;
     color:black;
     text-align: center;
-}
-
-h3, h4, h5{
-    font-family: 'Libre Baskerville', serif;
 }
 
 h1{
@@ -25,64 +21,27 @@ h3{
     margin-bottom: 3%;
 }
 
-p{
-    font-style: italic;
+h3, h4, h5{
+    font-family: 'Libre Baskerville', serif;
 }
 
 article {
     margin-block: 10%;
 }
 
-footer{
-    color: white;
-    background-color: rgba(23, 23, 22, 0.90);
-    font-size: smaller;
-    width: 100%;
-    position: absolute;
-    margin-bottom: 0%;
-}
-/* end of body elements */
-
-
-/* start of main body background */
-.header, .green-flower, .pink-flower, .footer{
-    background-size: contain;
-    background-repeat: no-repeat;
+p{
+    font-style: italic;
 }
 
-.header{
-    background-image: url(Images/arrière-plan-header.png);  
-}
-
-.green-flower{
-    background-image: url(Images/flower.png);
-    background-position: 95%;
-}
-
-.pink-flower{
-    background-image: url(Images/flowerpink.png);
-    background-position: 5%;
-}
-
-.footer{
-    background-image: url(Images/arrière-plan-footer.png);
-    background-position: bottom 50% right 8vw;
-}
-/* end of main body background */
-
-
-
-/* start of header */
-
+/* HEADER */
     /* Logo */
-#Logo img{
+#headerLogo img{
     width: 50%;
     height: 35%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
     /* navbar */
     /* responsive button */
 .navbar-toggler{
@@ -98,23 +57,79 @@ footer{
 #navbarNavAltMarkup a:hover {
     color: lightgreen;
 }
-
-
     /* header - end picture dog */
-#dog-head img{
+#headerPicEnd img{
     width: 100%;
 }
-/* end of header */
+/* HEADER */
+
+/* FOOTER */
+footer{
+    color: white;
+    background-color: rgba(23, 23, 22, 0.90);
+    font-size: smaller;
+    width: 100%;
+    position: absolute;
+    margin-bottom: 0%;
+}
+    /*conteneur*/
+.footerSocMed{
+    font-size:larger;
+}
+
+.footerSocMed a{
+    font-size:xx-large;
+}
+
+#facebook{
+    color: rgb(75, 75, 195);
+    margin-right: 10%;
+}
+
+#instagram{
+    color: rgb(239, 107, 248);
+    margin-left: 10%;
+}
+
+#mail{
+    color:rgb(170, 38, 38);
+}
+/* FOOTER */
+
+.header, .mainGreenFlower, .mainPinkFlower, .footer{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header{
+    background-image: url(Images/arrière-plan-header.png);  
+}
+
+.mainGreenFlower{
+    background-image: url(Images/flower.png);
+    background-position: 95%;
+}
+
+.mainPinkFlower{
+    background-image: url(Images/flowerpink.png);
+    background-position: 5%;
+}
+
+.footer{
+    background-image: url(Images/arrière-plan-footer.png);
+    background-position: bottom 50% right 8vw;
+}
+/* end of general body */
 
 
-/* start of main Home */
 
-    /* Main body */
+
+/* START of body home */
 ul{
     text-align: left;
 }
     
-#maindog1 img{
+#mainDog img{
     width: 40vw;
     display: block;
     margin-left: auto;
@@ -143,10 +158,10 @@ main section .btn:hover{
     border-color: black;
     color: black;
 }
-/* end of main Home */
+/* END of body home */
 
 
-/* Start of main events */
+/* START of body events */
     /* picture */
 #médiation img, #dog-read img, #PECCRAM img, #sensibilisation img{
     width: 50%;
@@ -163,9 +178,10 @@ main section .btn:hover{
 td, th{
     border: 2px solid rgb(53, 110, 92);
 }
-/*end of main events */
+/* END of body events */
 
-/* start of pets */
+
+/* START of body pets */
 #Pets img{
     width: 70%;
     margin-bottom: 10%;
@@ -179,68 +195,55 @@ td, th{
 #narniaHawai img, #miniCanelle img{
     margin-left: 20%;
 }
-/* end of pets */
+/* END of body pets */
 
 
 
-/* start of footer */
-    /*conteneur*/
-.social-media{
-    font-size:larger;
-}
-
-.social-media a{
-    font-size:xx-large;
-}
-
-#facebook{
-    color: rgb(75, 75, 195);
-    margin-right: 10%;
-}
-
-#instagram{
-    color: rgb(239, 107, 248);
-    margin-left: 10%;
-}
-
-#mail{
-    color:rgb(170, 38, 38);
-}
-/* end of footer */
-
-
-
-/* start of tablet responsive */
+/* START of tablet responsive */
 @media screen and (min-width:600px){
-/* start of body elements */
+
+/* START of general body */
+    /* FOOTER */
+    .footerSocMed a{
+        font-size: 7vw;
+    }
+
+    #facebook{
+        margin-right: 8%;
+    }
+
+    #instagram{
+        margin-left: 8%;
+    }
+    /* FOOTER */
+    
     .header{
         background-size: 90%;
         background-position-x: right;
     }
-
     .footer{
         background-position: bottom 50% right 20vw;
     }
-/* end of body elements */
+/* END of general body */
 
-/* start of main home */
+/* START of body home */
     ul{
         list-style-type: none; 
         text-align: center;   
         line-height: 2em;
     }
-/* end of main home */
+/* END of body home */
 
-/* start of main events */
+/* START of body events */
     .table{
         width: 80%;
         margin-right: auto;
         margin-left: auto;
     }
-/* end of main events */
+/* END of body events */
 
-/* start of main pets */
-    .mainPpets p{
+/* START of body pets */
+    .mainPets p{
         font-size: larger;
         font-weight: bolder;
         font-style: oblique;
@@ -259,34 +262,15 @@ td, th{
     #narniaHawai img, #miniCanelle img{
         margin-left: 30%;
     }
-/* end of main pets */
-
-/* start of footer */
-    .social-media a{
-        font-size: 7vw;
-    }
-
-    #facebook{
-        margin-right: 8%;
-    }
-
-    #instagram{
-        margin-left: 8%;
-    }
-/* end of footer */
- 
+/* END of body pets */
 }
-/* end of tablet responsive */
+/* END of tablet responsive */
 
 
-/* start of pc responsive */
+/* START of pc responsive */
 @media screen and (min-width:700px){
 
-/* start of body elements */
-    h1, h2{
-        margin-left : 20%;
-    }
-
+/* START of general body */
     h1{
         font-size: 5rem;
         margin-top: -15%;
@@ -296,32 +280,25 @@ td, th{
         font-size: 3rem;
         line-height: 3em;
     } 
+    
+    h1, h2{
+        margin-left : 20%;
+    }
 
     h5{
         margin-bottom: 5%;
-    }
-
-    p, footer{
-        font-size: larger;
     }
 
     article{
         margin-block: 3%;
     }
 
-    .header{
-        background-size: 50%;
+    p, ul, footer{
+        font-size: larger;
     }
 
-    .footer{
-        background-position: bottom 50% right 55vw;
-    }
-/*end of body elements */
-
-
-/* start of header */
-    /* Logo */
-    #Logo img{
+    /* HEADER */
+    #headerLogo img{
         width: 30%;
         height: 20%;
         display: block;
@@ -337,10 +314,34 @@ td, th{
         margin-right:20em;
     
     }
-/* end of header */
+    /* HEADER */
 
-/* start of main home */
-    #maindog1 img{
+    /* FOOTER */
+    .footerSocMed a{
+        font-size: 3.5vw;
+    }
+
+    #facebook{
+        margin-right: 5%;
+    }
+
+    #instagram{
+        margin-left: 5%;
+    }
+    /* FOOTER */
+
+    .header{
+        background-size: 50%;
+    }
+
+    .footer{
+        background-position: bottom 50% right 55vw;
+    }
+/* END of general body */
+
+
+/* START of body home */
+    #mainDog img{
         width: 30vw;
     }
 
@@ -354,9 +355,9 @@ td, th{
         float:inline-start;
         margin-right: 25%;
     }
-/* end of main home */
+/* END of body home */
 
-/* start of main events */
+/* END of body events */
     .table{
         width: 80%;
         margin-right: auto;
@@ -389,10 +390,10 @@ td, th{
         margin-right: 15%;
         margin-left: 5%;
     }
-/* end of main events */
+/* END of body events */
 
-/* start of main pets */
-    .mainPpets p{
+/* START of body pets */
+    .mainPets p{
         font-size: xx-large;
         font-style: oblique;
     }
@@ -410,21 +411,6 @@ td, th{
     #narniaHawai img, #miniCanelle img{
         margin-left: 30%;
     }
-/* end of main pets */
-
-/* start of footer */
-    .social-media a{
-        font-size: 3.5vw;
-    }
-
-    #facebook{
-        margin-right: 5%;
-    }
-
-    #instagram{
-        margin-left: 5%;
-    }
-/* end of footer */
-
+/* END of body pets */
 }
 /* end of pc responsive */
