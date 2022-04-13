@@ -76,105 +76,43 @@
         </div>    
     </header>
 
-    <main>
-        <section>
-            <article class="mainGreenFlower">
-                <h4><strong>Retrouvez nos ateliers</strong></h4>
-                <p>   
-                    <b>Ponctuels</b> : d'éveil ou de loisirs qui permet un temps de partage et de plaisir en groupe. <br/>
-                    <b>D'accompagnement</b> : pour se retrouver toutes les semaines dans un temps de partage en groupe.
-                </p>
-            </article> 
-
-            <table class="table table-dark">
-                <thead>
-                    <tr>
-                    <th scope="col">Nos évènements</th>
-                    <th scope="col">Date</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                    <th scope="row">Lire avec le chien ou soin animal</th>
-                    <td>tous les mercredis à 14 heures</td>
-                    </tr>
-
-                    <tr>
-                    <th scope="row">Médiation</th>
-                    <td>les troisièmes jeudi du mois</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <section>
-            <article class="mainPinkFlower">
-                <h5>médiation par l'animal</h5>    
-                <div class="articleFlex">
-                    <p>                 
-                        Quand l'animal à la capacité de recréer du lien, de provoquer de l'apaisement, d'éveiller les mémoires perdues 
-                        et d'accompagner une personne vers un mieux être physique, psychique et psychologique.
-                    </p>
-
-                    <div id="médiation">
-                        <img src="Images\médiation-animale.JPG" alt="séance de médiation avec deux chiens" />
-                    </div>   
-                </div>        
-            </article>
-
-            <article class="green-flower">
-                <h5>Au  plaisir de lire</h5> 
-                <div class="articleFlex">
-                    <p>
-                        <q>Aimer lire, c'est faire un échange des heures d'ennui contre des heures délicieuses</q> <br/>
-                        Citation de Montesquieu.
-                    </p>
-                    <p>
-                        Retrouvez l'audace de lire à haute voix grâce au chien, reprendre confiance en sa capacité de lecture sans se sentir 
-                        jugé.
-                    </p>
-
-                    <div id="dog-read">
-                        <img src="Images\corps-lire-avec.jpg" alt="photo d'un chien au milieu de livres"/>
-                    </div>
-                </div>
-            </article>
-
-            <article class="mainPinkFlower">
-                <h5>Le chien, mon ami</h5>
-                <div class="articleFlex">
-                    <p>
-                        Sensibiliser l'enfant au monde canin.<br/>
-                        Apprendre à l'observer, l'aborder et réagir en fonction des situations grâce au programme d'éducation à la connaissance 
-                        du chien et aux risques d'accidents par morsure (PECCRAM).
-                    </p>
-
-                    <div id="PECCRAM">
-                        <img src="Images\peccram.JPG" alt="photo enfant avec un chien, sensibilisé au risque de morsure"/>
-                    </div>
-                </div>    
-            </article>
-
-            <article class="mainGreenFlower">
-                <h5>les p'tits connaisseurs en herbe</h5>
-                <div class="articleFlex">
-                    <p>
-                        Sensibiliser l'enfant au bien-être animal.<br/>
-                        Découverte et apprentissage des bases pour prendre soin des différents petits animaux domestiques (cochons d'Inde, lapins,
-                        chinchillas, poissons, oiseaux…).
-                    </p>
-
-                    <div id="sensibilisation">
-                        <img src="Images\soins-petits-animaux.JPG" alt="photo qui apprends à prendre soin de petits animaux domestiques">
-                    </div>  
-                </div>  
-            </article>
-        </section>
-    </main>
+    <div class="contactez-nous">
+        <h2>Contactez-nous</h2>
+        <p>Un renseignement, une demande de devis ? Contactez-nous avec ce formulaire !</p>
+        <form action="/page-traitement-donnees" method="post">
+            <div>
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Pêcheur" required>
+            </div>
+            <div>
+                <label for="prénom">prénom</label>
+                <input type="text" id="Prénom" name="prénom" placeholder="Martin" required>
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+            </div>
+            <div>
+                <label for="sujet">Quel est le sujet de votre message ?</label>
+                <select name="sujet" id="sujet" required>
+                    <option value="" disabled selected hidden>Choisissez le sujet</option>
+                    <option value="probleme-compte">Demande de devis</option>
+                    <option value="autre">Autre...</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" placeholder="Ecrivez votre message ..." required></textarea>
+            </div>
+            <div>
+                <button type="submit">Envoyer mon message</button>
+            </div>
+        </form>
+    </div>
+    
 
     <footer class="footer">
-<!-- start : social media -->
+    <!-- START : social media -->
         <div class="footerSocMed">
             <p>
                 Pour en savoir plus retrouvez nous sur nos réseaux sociaux:
@@ -186,14 +124,14 @@
                 <a class="bi bi-envelope" id="mail" href="#"></a>
             </div>
         </div>
-<!-- end : social media -->
-        
-<!-- start copyright -->
+    <!-- END : social media -->
+    
+    <!-- START copyright -->
         <p>
             &copy; Anim'auxittanie | création du site : soler marjorie | 2022 | tous droits réservés
         </p>
-<!-- end copyright -->
-    </footer>
+    <!-- END copyright -->
+    </footer> 
 
 </body>
-</html>
+</html>     
