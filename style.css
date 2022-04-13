@@ -168,16 +168,6 @@ main section .btn:hover{
     height: 20%;
     margin-bottom: 10%;
 }
-
-    /* board */
-.table{
-    font-size: small;
-    margin-bottom: 15%;
-}
-
-td, th{
-    border: 2px solid rgb(53, 110, 92);
-}
 /* END of body events */
 
 
@@ -309,13 +299,6 @@ form div > label {
     }
 /* END of body home */
 
-/* START of body events */
-    .table{
-        width: 80%;
-        margin-right: auto;
-        margin-left: auto;
-    }
-/* END of body events */
 
 /* START of body pets */
     .mainPets p{
@@ -442,12 +425,6 @@ form button {
 /* END of body home */
 
 /* END of body events */
-    .table{
-        width: 80%;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 10%;
-    }
 
     #dog-read img, #sensibilisation img{
         width: 35vw;
