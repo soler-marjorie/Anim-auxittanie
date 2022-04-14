@@ -25,6 +25,13 @@ h3, h4, h5{
     font-family: 'Libre Baskerville', serif;
 }
 
+h6{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 3em;
+    font-weight: 700;
+    color:#809b44;
+}
+
 article {
     margin-block: 10%;
 }
@@ -172,18 +179,20 @@ main section .btn:hover{
 
 
 /* START of body pets */
-#Pets img{
-    width: 70%;
-    margin-bottom: 10%;
-    border: 1.5px solid rgb(229, 196, 128);
+
+.item{
+    width : 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgb(249, 227, 255);
+    box-shadow:10px 5px 5px #f8ad6c;
 }
 
-#Luna img, #mayaZigzag img, #ricoréRosette img{
-    margin-right: 20%;
-}
-
-#narniaHawai img, #miniCanelle img{
-    margin-left: 20%;
+.item-image img{
+    display: block;
+    width: 100%;
+    height:auto;
 }
 /* END of body pets */
 
