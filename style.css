@@ -27,7 +27,7 @@ h3, h4, h5{
 
 h6{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 700;
     color:#809b44;
 }
@@ -179,20 +179,60 @@ main section .btn:hover{
 
 
 /* START of body pets */
-
 .item{
-    width : 80%;
-    margin: auto;
-    margin-bottom: 20px;
+    width: 90%;
+    height: 80%;
     margin-top: 20px;
-    background-color: rgb(249, 227, 255);
+    margin-right: 2em;
+    margin-left: 3px;
+    background-color: rgb(255, 250, 227);
+    border: 1px solid #f8ad6c;
     box-shadow:10px 5px 5px #f8ad6c;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 70%
 }
 
 .item-image img{
     display: block;
+    width: 250px;
+    height:250px;
+    object-fit: contain;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.item-title{
+    display: block;
+    text-align: bottom;
+    text-align: center;
+}
+
+.scroll{
+    overflow-x: scroll;
+    margin-bottom: 20px;   
+    scrollbar-width: thin;
     width: 100%;
-    height:auto;
+}
+
+.scroll::-webkit-scrollbar{
+    height: 10px;
+
+}
+
+.scroll::-webkit-scrollbar-track{
+    background-color: rgba(182, 222, 98, 0.5);
+}
+
+.scroll::-webkit-scrollbar-thumb{
+    background-color: #303030;
+    border-radius: 10px;
+}
+
+.carousel-items {
+    display: flex;
+    padding: 1rem 0;
 }
 /* END of body pets */
 
