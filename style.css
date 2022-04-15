@@ -357,28 +357,28 @@ form div > label {
 
 
 /* START of body pets */
-.item{
-    width: 50%;
-    height: 40%;
+    .item{
+        width: 50%;
+        height: 40%;
 
-    flex-basis: 30%;
-    flex: 1 0 250px;
-}
+        flex-basis: 30%;
+        flex: 1 0 250px;
+    }
 
-.petstext{
-    margin-top: 10px;
-    margin-left: 8px;
-    margin-right: 8px;
-}
+    .petstext{
+        margin-top: 10px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
 /* END of body pets */
-}
+
 /* START contact */
-form button {
-    width: 40%;
-}
+    form button {
+        width: 40%;
+    }
 /*END contact */
 /* END of tablet responsive */
-
+}
 
 
 
@@ -534,22 +534,22 @@ form button {
 
 
 /*START contact */
-.contactez-nous {
-    width: 700px;
-    border: 1px solid;
-    border-radius: 8px;
-    padding: 0 50px 0 50px;
-    background: white;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
+    .contactez-nous {
+        width: 700px;
+        border: 1px solid;
+        border-radius: 8px;
+        padding: 0 50px 0 50px;
+        background: white;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 
-.contactez-nous > h2 {
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .contactez-nous > h2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 /* END contact */
 /* end of pc responsive */
