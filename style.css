@@ -135,6 +135,16 @@ footer{
 ul{
     text-align: left;
 }
+
+.texte1{
+    margin:5%;
+    box-shadow: 5px 5px 5px 5px rgba(218, 165, 32, 0.3);
+}
+
+.texte2{
+    /*text-shadow: rgb(60, 228, 99) 1px 0 10px;*/
+    text-shadow: 1px 1px 30px rgb(107, 221, 50);
+}
     
 #mainDog img{
     width: 40vw;
@@ -174,6 +184,21 @@ main section .btn:hover{
     width: 50%;
     height: 20%;
     margin-bottom: 10%;
+}
+
+q{
+    font-weight: 800;
+}
+
+.texteAtelier1{
+    padding: 15px;
+}
+
+.article1, .article2, .article3, .article4{
+    border: 1px solid rgb(199, 232, 50);
+    margin: 30px;
+    margin-bottom: 70px;
+    box-shadow: 30px -16px rgba(195, 235, 103, 0.419);
 }
 /* END of body events */
 
